@@ -1,0 +1,115 @@
+.title {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.description {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.generate-container {
+    text-align: center;
+    justify-content: center;
+}
+
+.generate {
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.generate:hover {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+
+.dog-picture {
+    width: 10;
+    height: 10;
+    justify-content: center;
+}
+
+.dog {
+    text-align: center;
+}
+
+.dog-picture {
+    margin-top: 20px;
+}
+
+.breed-group-name, .weight, .height, .life-span, .name {
+    border-radius: 15px;
+    background-color: brown;
+    color: white;
+    font-size: 15px;
+
+}
+
+.breed-group-name:hover, .weight:hover, .height:hover, .life-span:hover, .name:hover {
+    border-radius: 15px;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+
+.side-bar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    overflow: scroll;
+}
+
+.side-bar-name {
+    text-align: center;
+}
+
+.history-panel {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    overflow: scroll;
+    text-align: center;
+}
+
+.ban-list-attribute {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.ban-list-attribute:hover {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.history-list-picture {
+    margin-bottom: 20px;
+
+}
+
+body {
+    background-color: beige;
+}
